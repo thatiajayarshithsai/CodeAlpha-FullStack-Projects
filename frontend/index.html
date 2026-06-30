@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CodeAlpha Full Stack</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<h1>CodeAlpha Full Stack</h1>
+<p>Internship Project</p>
+</nav>
+
+
+<div class="box">
+
+<h2>Register / Login</h2>
+
+<input id="email" placeholder="Email">
+<input id="password" placeholder="Password">
+
+<button onclick="register()">Register</button>
+<button onclick="login()">Login</button>
+
+</div>
+
+
+
+<div class="box">
+
+<h2>E-Commerce Store</h2>
+
+<div class="cards">
+
+<div>
+💻 Laptop<br>
+₹55000<br>
+<button onclick="add('Laptop')">Add</button>
+</div>
+
+
+<div>
+📱 Phone<br>
+₹30000<br>
+<button onclick="add('Phone')">Add</button>
+</div>
+
+
+<div>
+🎧 Headphones<br>
+₹5000<br>
+<button onclick="add('Headphones')">Add</button>
+</div>
+
+</div>
+
+
+<h3>Cart</h3>
+
+<ul class="cart"></ul>
+
+</div>
+
+
+
+<div class="box">
+
+<h2>Project Management Tool</h2>
+
+
+<input id="task" placeholder="Task">
+
+<input id="comment" placeholder="Comment">
+
+
+<button onclick="addTask()">Add Task</button>
+
+
+<div id="tasks"></div>
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
